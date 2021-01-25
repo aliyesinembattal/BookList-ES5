@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3d17c98637.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+      integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="app.css" />
+    <title>Book List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-bar">
+        <i class="fas fa-book-reader"></i>
+        <h1 class="header">Add Book</h1>
+      </div>
+
+      <form id="book-form">
+        <div>
+          <div class="form-label">
+            <i class="fas fa-pen-fancy"></i>
+            <label for="title" class="form-item-label">Title</label>
+          </div>
+          <input type="text" id="title" class="u-full-width" />
+        </div>
+        <div>
+          <div class="form-label">
+            <i class="fas fa-user-edit"></i>
+            <label for="author" class="form-item-label">Author</label>
+          </div>
+          <input type="text" id="author" class="u-full-width" />
+        </div>
+        <div>
+          <div class="form-label">
+            <i class="fas fa-list-ol"></i>
+            <label for="isbn" class="form-item-label">ISBN#</label>
+          </div>
+          <input type="text" id="isbn" class="u-full-width" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" class="submit-btn u-full-width" />
+        </div>
+      </form>
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th><i class="delete-row fas fa-trash-alt"></i></th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+      </table>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap");
+.success,
+.error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.header {
+  font-family: "Lobster", cursive;
+}
+
+.header-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-bar > i {
+  font-size: 40px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-label > i {
+  margin-top: 6px;
+  font-size: 19px;
+  margin-right: 5px;
+}
+
+.form-item-label {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+table > thead > tr > th {
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.delete-row {
+  margin-left: -13px;
+}
+
+.submit-btn {
+  background-color: black !important;
+  border-radius: 15px !important;
+  color: white !important;
+  font-family: "Lobster", cursive;
+  font-size: 15px !important;
+}
+
+#book-list > tr > td {
+  font-family: "Dancing Script", cursive;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center !important;
+  border-bottom: 1px dashed black;
+}
+.delete {
+  color: black;
+  margin-left: -13px;
+}
+
+.alert {
+  border-radius: 15px;
+  text-align: center;
+}
+
+.error {
+  background-color: rgb(129, 46, 54);
+}
+
+.success {
+  background-color: rgb(36, 83, 85);
+}
